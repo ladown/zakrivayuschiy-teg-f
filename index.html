@@ -663,7 +663,10 @@
                             </article>
                         </li>
                     </ul>
-                    <button class="section-posts__button section-posts__button_submit button button_type_primary">
+                    <button
+                        class="section-posts__button section-posts__button_submit button button_type_primary"
+                        onclick="window.modal.showModal()"
+                    >
                         <span class="button__icon">
                             <svg class="module-svg-icon" viewBox="0 0 24 24">
                                 <use href="./svg/floppy.svg#floppy"></use>
@@ -674,6 +677,21 @@
                 </div>
             </section>
         </main>
+        <dialog class="modal" id="modal">
+            <div class="modal__wrapper">
+                <div class="modal__title">
+                    <div class="modal__title-icon">
+                        <svg class="module-svg-icon" viewBox="0 0 24 24">
+                            <use href="./svg/floppy.svg#floppy"></use>
+                        </svg>
+                    </div>
+                    <div class="modal__title-text">Вставьте дискету, чтобы продолжить</div>
+                </div>
+                <button class="modal__button button button_type_primary button_size_small" onclick="window.modal.close()">
+                    <div class="button__text">ок</div>
+                </button>
+            </div>
+        </dialog>
         <script src="./scripts/like.js"></script>
     </body>
 </html>
