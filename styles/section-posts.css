@@ -1,0 +1,15 @@
+.section-posts {
+    padding-bottom: 100px;
+}
+
+.section-posts__list-item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.section-posts__button_like {
+    min-width: 130px;
+}
+
+.section-posts__button_submit {
+    margin: 52px auto 0;
+}

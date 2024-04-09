@@ -1,4 +1,5 @@
 .theme-menu__item {
+    display: flex;
     text-align: left;
 }
 

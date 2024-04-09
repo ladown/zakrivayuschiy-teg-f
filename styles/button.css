@@ -1,0 +1,37 @@
+.button {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row nowrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    max-width: 100%;
+    text-align: center;
+}
+
+.button_type_simple .button__icon {
+    width: 27px;
+}
+
+.button_type_primary {
+    padding: 15px 20px;
+    background: var(--themes-background, #fff);
+    border: 2px solid var(--themes-main-color, #000);
+}
+
+.button_type_primary.button_size_small {
+    padding: 12.5px;
+}
+
+.button__icon {
+    display: flex;
+    flex: 0 0 auto;
+    width: 21px;
+}
+
+.button__text {
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 0.9;
+}
