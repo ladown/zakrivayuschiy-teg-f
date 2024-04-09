@@ -62,6 +62,26 @@
     fill: currentColor;
 }
 
+.button_like-icon:hover .like-icon .core {
+    opacity: 1;
+    transition: opacity var(--primary-transition-duration) linear;
+}
+
+.button_like-icon:active .like-icon .core {
+    fill: #f00;
+    transition: fill var(--primary-transition-duration) linear;
+}
+
+.button_like-icon:hover .like-icon .main-body {
+    opacity: 1;
+    transition: opacity var(--primary-transition-duration) 0.05s linear;
+}
+
+.button_like-icon:active .like-icon .main-body {
+    fill: #f00;
+    transition: fill var(--primary-transition-duration) 0.05s linear;
+}
+
 .button__icon {
     display: flex;
     flex: 0 0 auto;

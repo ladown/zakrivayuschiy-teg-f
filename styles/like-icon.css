@@ -1,0 +1,45 @@
+.like-icon .contour {
+    fill: #000;
+    transition: fill 0.1s linear;
+}
+
+.like-icon.is-liked .contour {
+    fill: #f00;
+    transition: fill var(--primary-transition-duration) 0.06s linear;
+}
+
+.like-icon .main-body {
+    opacity: 0;
+    fill: var(--themes-main-color);
+    transition: opacity var(--primary-transition-duration) linear;
+}
+
+.like-icon.is-liked .main-body {
+    opacity: 1;
+    fill: #f00;
+    transition: opacity var(--primary-transition-duration) 0.05s linear;
+}
+
+.like-icon .core {
+    opacity: 0;
+    fill: var(--themes-main-color);
+    transition: opacity var(--primary-transition-duration) 0.03s linear;
+}
+
+.like-icon.is-liked .core {
+    opacity: 1;
+    fill: #f00;
+    transition: opacity var(--primary-transition-duration) linear;
+}
+
+.like-icon .sparks {
+    opacity: 0;
+}
+
+.like-icon.is-liked .heart {
+    animation: like-icon-heart-scale var(--primary-transition-duration) 0.1s ease-in alternate;
+}
+
+.like-icon.is-liked .sparks {
+    animation: like-icon-sparks-appear var(--primary-transition-duration) var(--primary-transition-duration) ease-in alternate;
+}
