@@ -49,14 +49,3 @@
     max-width: 100%;
     height: auto;
 }
-
-.card__title {
-    padding: 5px 10px;
-    font-variation-settings: 'wght' var(--card-title-font-weight);
-    color: var(--themes-main-color);
-}
-
-.card__text {
-    font-variation-settings: 'wght' var(--page-font-weight);
-    color: var(--themes-main-color);
-}
