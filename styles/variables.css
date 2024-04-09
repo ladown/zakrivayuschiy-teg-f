@@ -1,7 +1,13 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --primary-font: 'Inter-Variable', sans-serif;
+    --primary-font: 'Inter', sans-serif;
     --secondary-font: 'PressStart2P', sans-serif;
     --primary-transition-duration: 0.3s;
     --primary-transition-timing-function: ease;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        --primary-font: 'Inter-Variable', sans-serif;
+    }
 }

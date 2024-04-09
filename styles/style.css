@@ -27,6 +27,12 @@
     background-size: cover;
 }
 
+@supports (font-variation-settings: normal) {
+    .page {
+        font-variation-settings: 'wght' var(--page-font-weight);
+    }
+}
+
 .wrapper {
     width: 100%;
     max-width: 696px;

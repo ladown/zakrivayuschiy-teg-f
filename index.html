@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Закрывающий тег</title>
+        <meta name="color-scheme" content="dark light" />
         <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" sizes="any" />
         <link rel="stylesheet" href="./fonts/fonts.css" />
         <link rel="stylesheet" href="./styles/variables.css" />
@@ -721,7 +722,7 @@
             </section>
         </main>
         <dialog class="modal" id="modal">
-            <div class="modal__wrapper">
+            <form class="modal__wrapper" action="#" method="dialog">
                 <div class="modal__title">
                     <div class="modal__title-icon">
                         <svg class="module-svg-icon" viewBox="0 0 24 24">
@@ -730,10 +731,10 @@
                     </div>
                     <div class="modal__title-text">Вставьте дискету, чтобы продолжить</div>
                 </div>
-                <button class="modal__button button button_type_primary button_size_small" onclick="window.modal.close()">
-                    <div class="button__text">ок</div>
+                <button class="modal__button button button_type_primary button_size_small">
+                    <span class="button__text">ок</span>
                 </button>
-            </div>
+            </form>
         </dialog>
         <script src="./scripts/like.js"></script>
     </body>
