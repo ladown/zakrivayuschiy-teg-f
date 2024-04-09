@@ -19,13 +19,18 @@
     min-block-size: 100dvb;
     font-family: var(--primary-font);
     font-size: 18px;
-    font-variation-settings: 'wght' var(--page-font-weight);
     font-weight: var(--page-font-weight);
     line-height: normal;
     background-color: var(--themes-background);
     background-image: var(--page-background-gradient);
     background-attachment: fixed;
     background-size: cover;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-variation-settings: 'wght' var(--page-font-weight);
+    }
 }
 
 .wrapper {

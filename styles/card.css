@@ -5,8 +5,14 @@
 
 .card__title {
     padding: 5px 10px;
-    font-weight: var(--card-title-font-weight);
+    font-weight: 700;
     color: var(--themes-main-color);
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-variation-settings: 'wght' var(--card-title-font-weight);
+    }
 }
 
 .card__preview {
@@ -95,7 +101,14 @@
 }
 
 .card__text {
+    font-weight: 400;
     color: var(--themes-main-color);
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-variation-settings: 'wght' var(--page-font-weight);
+    }
 }
 
 .card__text > *:not(:last-child) {
