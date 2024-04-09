@@ -16,8 +16,17 @@
     transition-property: box-shadow;
 }
 
+.button_type_simple {
+    border: 2px solid transparent;
+    transition: border-color var(--primary-transition-duration) var(--primary-transition-timing-function);
+}
+
 .button_type_simple .button__icon {
     width: 27px;
+}
+
+.button_type_simple:focus-visible {
+    border-color: var(--themes-main-color);
 }
 
 .button_type_primary {

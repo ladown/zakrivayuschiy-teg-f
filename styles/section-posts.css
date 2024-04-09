@@ -6,6 +6,11 @@
     margin-bottom: 50px;
 }
 
+.section-posts__button_icon {
+    width: 41px;
+    aspect-ratio: 1;
+}
+
 .section-posts__button_like {
     min-width: 130px;
 }
