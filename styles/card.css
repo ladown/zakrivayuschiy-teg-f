@@ -3,12 +3,6 @@
     border: 2px solid var(--themes-main-color);
 }
 
-.card__title {
-    padding: 5px 10px;
-    font-variation-settings: 'wght' var(--card-title-font-weight);
-    color: var(--themes-main-color);
-}
-
 .card__preview {
     position: relative;
 }
@@ -92,11 +86,6 @@
 
 .card__content {
     padding: 25px;
-}
-
-.card__text {
-    font-variation-settings: 'wght' var(--page-font-weight);
-    color: var(--themes-main-color);
 }
 
 .card__text > *:not(:last-child) {
