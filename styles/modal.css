@@ -22,6 +22,8 @@
     flex-flow: row nowrap;
     gap: 20px;
     align-items: center;
+    color: var(--themes-main-color);
+    fill: currentColor;
 }
 
 .modal__title-icon {
