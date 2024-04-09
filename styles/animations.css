@@ -12,3 +12,13 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes theme-menu-arrow-moving {
+    from {
+        transform: translate(0, -50%);
+    }
+
+    to {
+        transform: translate(4px, -50%);
+    }
+}
