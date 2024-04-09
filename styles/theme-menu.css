@@ -13,7 +13,7 @@
     font-size: 14px;
     color: var(--themes-main-color);
     text-transform: uppercase;
-    transition: opacity 0.3s ease;
+    transition: opacity var(--primary-transition-duration) var(--primary-transition-timing-function);
 }
 
 .theme-menu__button::before {
@@ -22,7 +22,7 @@
     height: 2px;
     content: '';
     background: currentColor;
-    transition: transform 0.3s ease;
+    transition: transform var(--primary-transition-duration) var(--primary-transition-timing-function);
     transform-origin: 0 50%;
 }
 

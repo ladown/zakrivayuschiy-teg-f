@@ -2,4 +2,6 @@
 :root {
     --primary-font: 'Inter-Variable', sans-serif;
     --secondary-font: 'PressStart2P', sans-serif;
+    --primary-transition-duration: 0.3s;
+    --primary-transition-timing-function: ease;
 }
