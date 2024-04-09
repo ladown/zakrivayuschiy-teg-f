@@ -59,7 +59,7 @@
 }
 
 .card__photo img {
-    filter: blur(5px);
+    filter: blur(5px) opacity(80%);
 }
 
 .card__photo_filter_brightness img {
