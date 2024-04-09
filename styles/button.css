@@ -65,3 +65,13 @@
     line-height: 0.9;
     mix-blend-mode: difference;
 }
+
+@media only screen and (max-width: 580px) {
+    .button {
+        flex-direction: column;
+    }
+
+    .button__icon {
+        width: 28px;
+    }
+}
