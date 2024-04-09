@@ -21,4 +21,14 @@
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
+    background-color: var(--themes-background);
+    background-image: var(--page-background-gradient);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 696px;
+    margin: auto;
 }

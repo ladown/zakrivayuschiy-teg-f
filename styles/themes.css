@@ -6,33 +6,41 @@
 */
 
 :root.theme-dark {
-    --themes-main-color: #000;
-    --themes-background: #fff;
+    --themes-main-color: #00cc14;
+    --themes-background: #000;
     --card-title-font-weight: 785;
     --card-text-font-weight: 465;
+    --page-background-gradient: repeating-linear-gradient(to left, #000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(#000 0 2px, transparent 2px 4px), linear-gradient(#007f0c, #004306);
 }
 
 :root.theme-light {
-    --themes-main-color: #00cc14;
-    --themes-background: #000;
+    --themes-main-color: #000;
+    --themes-background: #fff;
     --card-title-font-weight: 700;
     --card-text-font-weight: 400;
+    --page-background-gradient: repeating-linear-gradient(to left, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0.1%, #1a1a1a 100%);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --themes-main-color: #000;
-        --themes-background: #fff;
+        --themes-main-color: #00cc14;
+        --themes-background: #000;
         --card-title-font-weight: 785;
         --card-text-font-weight: 465;
+        --page-background-gradient: repeating-linear-gradient(to left, #000 0 2px, transparent 2px 4px),
+            repeating-linear-gradient(#000 0 2px, transparent 2px 4px), linear-gradient(#007f0c, #004306);
     }
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --themes-main-color: #00cc14;
-        --themes-background: #000;
+        --themes-main-color: #000;
+        --themes-background: #fff;
         --card-title-font-weight: 700;
         --card-text-font-weight: 400;
+        --page-background-gradient: repeating-linear-gradient(to left, #d3d3d3 0 2px, transparent 2px 4px),
+            repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0.1%, #1a1a1a 100%);
     }
 }

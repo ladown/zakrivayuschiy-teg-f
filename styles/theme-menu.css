@@ -1,0 +1,28 @@
+.theme-menu__item {
+    text-align: left;
+}
+
+.theme-menu__item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.theme-menu__button {
+    position: relative;
+    padding-left: 20px;
+    font-size: 14px;
+    color: var(--themes-main-color);
+    text-transform: uppercase;
+}
+
+.theme-menu__button:disabled {
+    opacity: 0.6;
+}
+
+.theme-menu__button:disabled::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-right: 6px;
+    content: '▶';
+    transform: translateY(-50%);
+}

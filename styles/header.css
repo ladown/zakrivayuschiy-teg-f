@@ -1,0 +1,29 @@
+.header {
+    padding: 100px 0;
+}
+
+.header__wrapper {
+    padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem) 14px 25px;
+    text-align: center;
+    background-color: var(--themes-background);
+    border: 2px solid var(--themes-main-color);
+}
+
+.header__title {
+    font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    color: var(--themes-main-color);
+    text-transform: uppercase;
+}
+
+.header__subtitle {
+    margin-top: 20px;
+    font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    color: var(--themes-main-color);
+    text-transform: uppercase;
+}
+
+.header__theme-menu {
+    width: fit-content;
+    max-width: 100%;
+    margin: 25px auto 0;
+}
