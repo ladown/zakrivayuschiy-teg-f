@@ -53,40 +53,35 @@
     text-transform: lowercase;
 }
 
-.card__photo {
-    position: absolute;
-    inset: 0;
-}
-
-.card__photo img {
+.card__photo  {
     filter: blur(5px) opacity(80%);
 }
 
-.card__photo_filter_brightness img {
+.card__photo_filter_brightness  {
     filter: brightness(0.4);
 }
 
-.card__photo_filter_contrast img {
+.card__photo_filter_contrast  {
     filter: contrast(200%);
 }
 
-.card__photo_filter_grayscale img {
+.card__photo_filter_grayscale  {
     filter: grayscale(50%);
 }
 
-.card__photo_filter_hue-rotate img {
+.card__photo_filter_hue-rotate  {
     filter: hue-rotate(90deg);
 }
 
-.card__photo_filter_invert img {
+.card__photo_filter_invert  {
     filter: invert(75%);
 }
 
-.card__photo_filter_saturate img {
+.card__photo_filter_saturate  {
     filter: saturate(30%);
 }
 
-.card__photo_filter_sepia img {
+.card__photo_filter_sepia  {
     filter: sepia(60%);
 }
 
