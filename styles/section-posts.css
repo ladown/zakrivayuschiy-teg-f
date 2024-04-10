@@ -6,15 +6,6 @@
     margin-bottom: 50px;
 }
 
-.section-posts__button_icon {
-    width: 41px;
-    aspect-ratio: 1;
-}
-
-.section-posts__button_like {
-    min-width: 130px;
-}
-
-.section-posts__button_submit {
+.section-posts__button {
     margin: 52px auto 0;
 }

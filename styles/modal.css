@@ -1,4 +1,4 @@
-.modal {
+.modal[open] {
     width: min(100%, 353px);
     padding: 0;
     margin: auto;
@@ -12,7 +12,7 @@
 }
 
 .modal__wrapper {
-    padding: 30px clamp(2rem, 2.8451rem + -0.939vw, 2.625rem);
+    padding: 30px clamp(2rem, 2.8451rem + -0.939vw, 2.3rem);
     background-color: var(--themes-background, #fff);
     border: 2px solid var(--themes-main-color, #000);
 }

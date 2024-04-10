@@ -4,4 +4,11 @@
     --secondary-font: 'PressStart2P', fantasy;
     --primary-transition-duration: 0.3s;
     --primary-transition-timing-function: ease;
+    --themes-main-color: #000;
+    --themes-background: #fff;
+    --button-text-color: #fff;
+    --card-title-font-weight: 700;
+    --page-font-weight: 400;
+    --page-background-gradient: repeating-linear-gradient(to left, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0.1%, #1a1a1a 100%);
 }

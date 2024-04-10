@@ -7,6 +7,7 @@
     padding: 5px 10px;
     font-variation-settings: 'wght' var(--card-title-font-weight);
     color: var(--themes-main-color);
+    border-bottom: 2px solid var(--themes-main-color);
 }
 
 .card__preview {
@@ -42,6 +43,7 @@
     .card__preview-label {
         text-shadow: none;
         -webkit-text-stroke: 1px var(--themes-background);
+        text-stroke: 1px var(--themes-background);
     }
 }
 
@@ -87,10 +89,11 @@
 
 .card__content {
     padding: 25px;
+    border-top: 2px solid var(--themes-main-color);
 }
 
 .card__text {
-    font-variation-settings: 'wght' var(--page-font-weight);
+    line-height: 21px;
     color: var(--themes-main-color);
 }
 
@@ -105,4 +108,13 @@
     align-items: center;
     justify-content: flex-end;
     margin-top: 25px;
+}
+
+.card__icon-button {
+    width: 41px;
+    aspect-ratio: 1;
+}
+
+.card__like-button {
+    min-width: 130px;
 }

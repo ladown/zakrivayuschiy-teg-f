@@ -21,10 +21,6 @@
     transition: border-color var(--primary-transition-duration) var(--primary-transition-timing-function);
 }
 
-.button_type_simple .button__icon {
-    width: 27px;
-}
-
 .button_type_simple:focus-visible {
     border-color: var(--themes-main-color);
 }
@@ -62,6 +58,10 @@
     fill: currentColor;
 }
 
+.button_like-icon .button__icon {
+    width: 39px;
+}
+
 .button_like-icon:hover .like-icon .core {
     opacity: 1;
     transition: opacity var(--primary-transition-duration) linear;
@@ -80,6 +80,10 @@
 .button_like-icon:active .like-icon .main-body {
     fill: #f00;
     transition: fill var(--primary-transition-duration) 0.05s linear;
+}
+
+.button_text_uppercase {
+    text-transform: uppercase;
 }
 
 .button__icon {
